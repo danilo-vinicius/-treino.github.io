@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.exercicios {
+  display: none;
+}
+
+#exercicios-segunda,
+#exercicios-terca,
+#exercicios-quarta,
+#exercicios-quinta,
+#exercicios-sexta,
+#exercicios-sabado,
+#exercicios-domingo {
+  display: table-row;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li:before {
+  content: "";
+  margin-right: 5px;
+  color: #999;
+}
+
+
+p {
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 120px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 5px;
+  }
+  
+  .menu-icon {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .menu {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  .button {
+    text-align: center;
+    display: inline-block;
+    width: 98%;
+    margin-bottom: 1px;
+  }
+}
+
