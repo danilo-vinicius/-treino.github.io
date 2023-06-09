@@ -1,3 +1,3 @@
-# -treino.github.io
+# -treino
 
 Ficha semanal de treinos
