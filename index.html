@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Treinos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Treinos Semanais</h1>
+  <table>
+    <tr>
+      <th class="button" onclick="exibirExercicios('segunda')">Segunda-feira</th>
+      <th class="button" onclick="exibirExercicios('terca')">Terça-feira</th>
+      <th class="button" onclick="exibirExercicios('quarta')">Quarta-feira</th>
+      <th class="button" onclick="exibirExercicios('quinta')">Quinta-feira</th>
+      <th class="button" onclick="exibirExercicios('sexta')">Sexta-feira</th>
+      <th class="button" onclick="exibirExercicios('sabado')">Sábado</th>
+      <th class="button" onclick="exibirExercicios('domingo')">Domingo</th>
+    </tr>
+    <tr id="exercicios-segunda" class="exercicios">
+      <td colspan="7">
+        <h2>Segunda-feira: Peito / Bíceps</h2>
+        <hr>
+        <h3>Exercícios de Peito</h3>
+        <ul>
+          <li>Supino reto: 3-4 séries de 8-12 repetições</li>
+          <li>Supino inclinado: 3-4 séries de 8-12 repetições</li>
+          <li>Peck deck: 3-4 séries de 10-15 repetições</li>
+          <li>Supino invertido com halteres: 3-4 séries de 10-15 repetições</li>
+        </ul>
+        <hr>
+        <h3>Exercícios de Bíceps</h3>
+        <ul>
+          <li>Rosca direta com barra: 3-4 séries de 8-12 repetições</li>
+          <li>Banco Scott: 3-4 séries de 8-12 repetições</li>
+          <li>Banco Scott unilateral: 3-4 séries de 8-12 repetições para cada braço</li>
+          <li>Rosca concentrada: 3-4 séries de 10-15 repetições</li>
+        </ul>
+      </td>
+    </tr>
+    <tr id="exercicios-terca" class="exercicios">
+      <td colspan="7">
+        <h2>Terça-feira: Posterior Perna / Panturrilha</h2>
+        <hr>
+        <h3>Exercícios de Posterior Perna</h3>
+        <ul>
+          <li>Mesa flexora: 3-4 séries de 8-12 repetições</li>
+          <li>Flexora em pé: 3-4 séries de 8-12 repetições</li>
+          <li>Leg press: 3-4 séries de 10-15 repetições</li>
+          <li>Stiff: 3-4 séries de 8-12 repetições</li>
+          <li>Mesa flexora unilateral: 3-4 séries de 8-12 repetições para cada perna</li>
+          <li>Cadeira flexora: 3-4 séries de 10-15 repetições</li>
+        </ul>
+        <hr>
+        <h3>Exercícios de Panturrilha</h3>
+        <ul>
+          <li>Panturrilha no banco: 3-4 séries de 12-15 repetições</li>
+          <li>Panturrilha em pé: 3-4 séries de 12-15 repetições</li>
+          <li>Panturrilha no leg press: 3-4 séries de 12-15 repetições</li>
+        </ul>
+      </td>
+    </tr>
+    <tr id="exercicios-quarta" class="exercicios">
+      <td colspan="7">
+        <h2>Quarta-feira: Dorsal / Trapézio</h2>
+        <hr>
+        <h3>Exercícios de Dorsal</h3>
+        <ul>
+          <li>Puxada pela frente: 3-4 séries de 8-12 repetições</li>
+          <li>Puxada pela frente no triângulo: 3-4 séries de 8-12 repetições</li>
+          <li>Remada baixa no triângulo: 3-4 séries de 8-12 repetições</li>
+          <li>Remada articulada no banco: 3-4 séries de 8-12 repetições</li>
+          <li>Remada cavalo: 3-4 séries de 8-12 repetições</li>
+        </ul>
+        <hr>
+        <h3>Exercícios de Trapézio</h3>
+        <ul>
+          <li>Encolhimento na barra livre: 3-4 séries de 8-12 repetições</li>
+          <li>Remada alta: 3-4 séries de 8-12 repetições</li>
+        </ul>
+      </td>
+    </tr>
+    <tr id="exercicios-quinta" class="exercicios">
+      <td colspan="7">
+         <h2>Quinta-feira: Ombro / Tríceps</h2>
+        <hr>
+        <h3>Exercícios de Ombros</h3>
+        <ul>
+          <li>Desenvolvimento pela frente: 3-4 séries de 8-12 repetições</li>
+          <li>Desenvolvimento por trás: 3-4 séries de 8-12 repetições</li>
+          <li>Elevação lateral: 3-4 séries de 8-12 repetições</li>
+          <li>Elevação frontal: 3-4 séries de 8-12 repetições</li>
+          <li>Peck deck invertido: 3-4 séries de 8-12 repetições</li>
+        </ul>
+        <hr>
+        <h3>Exercícios de Tríceps</h3>
+        <ul>
+          <li>Tríceps na polia alta: 3-4 séries de 8-12 repetições</li>
+          <li>Tríceps corda: 3-4 séries de 8-12 repetições</li>
+          <li>Tríceps unilateral na polia alta: 3-4 séries de 8-12 repetições para cada lado</li>
+          <li>Tríceps francês: 3-4 séries de 8-12 repetições</li>
+        </ul>
+      </td>
+    </tr>
+    <tr id="exercicios-sexta" class="exercicios">
+      <td colspan="7">
+         <h2>Sexta-feira: Quadríceps / Antebraço</h2>
+        <hr>
+        <h3>Exercícios de Quadríceps</h3>
+        <ul>
+          <li>Agachamento: 3-4 séries de 8-12 repetições</li>
+          <li>Leg Press com os pés embaixo: 3-4 séries de 8-12 repetições</li>
+          <li>Cadeira Extensora: 3-4 séries de 8-12 repetições</li>
+          <li>Agachamento no Sissy: 3-4 séries de 8-12 repetições</li>
+          <li>Cadeira Adutora: 3-4 séries de 8-12 repetições</li>
+          <li>Passada Unilateral com Halter: 3-4 séries de 8-12 repetições para cada perna</li>
+          <li>Cadeira Extensora Unilateral: 3-4 séries de 8-12 repetições</li>
+        </ul>
+        <hr>
+        <h3>Exercícios de Antebraço</h3>
+        <ul>
+          <li>Bíceps Invertido: 3-4 séries de 8-12 repetições</li>
+          <li>Rosca Punho: 3-4 séries de 8-12 repetições</li>
+        </ul>
+      </td>
+    </tr>
+    <tr id="exercicios-sabado" class="exercicios">
+      <td colspan="7">
+        <h2>Sábado: Treino Livre</h2>
+        <hr>
+        <p>Escolha os exercícios de acordo com suas preferências e necessidades.</p>
+      </td>
+    </tr>
+    <tr id="exercicios-domingo" class="exercicios">
+      <td colspan="7">
+        <h2>Domingo: Treino Livre</h2>
+        <hr>
+        <p>Escolha os exercícios de acordo com suas preferências e necessidades.</p>
+      </td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
